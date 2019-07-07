@@ -1,0 +1,32 @@
+{
+  "name": "@yhtml5/axios-plugins",
+  "version": "0.0.3",
+  "author": "yhtml5 <1417376255@qq.com>",
+  "description": "enhance axios. add adapters for miniprograms",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yhtml5/axios-plugins.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhtml5/axios-plugins/issues"
+  },
+  "homepage": "https://github.com/yhtml5/axios-plugins#readme",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "typescript": "^3.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
