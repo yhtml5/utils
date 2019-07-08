@@ -7,18 +7,18 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha --reporter spec",
-    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js - - -R spec"
+    "cover": "istanbul cover --report lcov node_modules/mocha/bin/_mocha -- -R spec test/*.js"
   },
+  "keywords": [],
+  "license": "MIT",
+  "homepage": "https://github.com/yhtml5/axios-plugins#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yhtml5/axios-plugins.git"
   },
-  "keywords": [],
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/yhtml5/axios-plugins/issues"
   },
-  "homepage": "https://github.com/yhtml5/axios-plugins#readme",
   "files": [
     "dist"
   ],
