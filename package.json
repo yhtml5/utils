@@ -3,9 +3,10 @@
   "version": "0.6.0",
   "author": "yhtml5 <1417376255@qq.com>",
   "description": "enhance axios. add adapters for miniprograms",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
+    "pretest": "npm run build",
     "test": "mocha --reporter spec",
     "cover": "istanbul cover --report lcov node_modules/mocha/bin/_mocha -- -R spec test/*.js"
   },
