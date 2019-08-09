@@ -2,6 +2,8 @@
 src
 scripts
 coverage
+ignore
+
 
 # files
 config.js
