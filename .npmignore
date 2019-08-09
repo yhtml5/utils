@@ -5,3 +5,6 @@ node_module
 yarn.lock
 packages-lock.json
 test
+config.checklist.js
+config.js
+.eslintrc.js
