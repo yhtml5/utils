@@ -1,6 +1,6 @@
 {
   "name": "@yhtml5/utils",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "author": "yhtml5 <1417376255@qq.com>",
   "description": "enhance axios. add adapters for miniprograms",
   "scripts": {
