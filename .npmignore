@@ -3,7 +3,8 @@ src
 scripts
 coverage
 ignore
-
+dist
+.DS_Store
 
 # files
 config.js

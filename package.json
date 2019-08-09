@@ -1,6 +1,6 @@
 {
   "name": "@yhtml5/utils",
-  "version": "0.7.5",
+  "version": "0.7.3",
   "author": "yhtml5 <1417376255@qq.com>",
   "description": "enhance axios. add adapters for miniprograms",
   "scripts": {
@@ -21,6 +21,10 @@
   "bugs": {
     "url": "https://github.com/yhtml5/utils/issues"
   },
+  "files": [
+    "*.js",
+    "*.ts"
+  ],
   "devDependencies": {
     "@yhtml5/utils": "^0.5.0",
     "chai": "^4.2.0",
