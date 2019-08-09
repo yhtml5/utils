@@ -6,7 +6,9 @@ base=$( cd "$(dirname "$0")" ; pwd -P )/../
 
 echo 'build'
 
+git commit -am "publish"
 npm run build
+npm version patch
 
 echo 'prepare publish files'
 cd $base/dist/
