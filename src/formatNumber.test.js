@@ -23,5 +23,4 @@ describe('test function formatNumber', () => {
   it('expect: 1000000', () => expect(a).to.equal('1000000'))
   it('expect: 999999.716', () => expect(b).to.equal('999999.716'))
   it('expect: 999,999.72', () => expect(c).to.equal('999,999.72'))
-
 })

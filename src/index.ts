@@ -1,3 +1,18 @@
-export function add(a: number, b: number): number {
-  return a + b;
+import formatNumber from './formatNumber'
+import formatTime from './formatTime'
+export {
+  isUndefined,
+  isNull,
+  isNumber,
+  isString,
+  isFunction,
+  isArray,
+  isArrayEmpty,
+  isObject,
+  isObjectEmpty
+} from './isType'
+
+export {
+  formatNumber,
+  formatTime
 }

@@ -1,9 +1,9 @@
 # directories
-src
-scripts
 coverage
-ignore
 dist
+scripts
+src
+ignore
 .DS_Store
 
 # files

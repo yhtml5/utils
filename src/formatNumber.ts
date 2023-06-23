@@ -1,9 +1,9 @@
 interface Config {
-  decimals?: number;      // 保留几位小数, 默认 0
-  util?: number;          // 多少位开启换单位, 默认 万
-  roundtag?: string;      // 舍入参数, [ceil: 向上取整, floor: 向下取整, round: 四舍五入], 默认 round
-  decPoint?: string;      // 小数点符号, 默认 '.'
-  thousandsSep?: string;  // 千分位符号, 默认 无
+  decimals?: number;      // How many decimal places to keep, default 0
+  decPoint?: string;      // Decimal point symbol, default '.'
+  roundtag?: string;      // Rounding parameter, [ceil: round up, floor: round down, round: round], default round
+  thousandsSep?: string;  // Thousands separator symbol, default none
+  util?: number;          // How many digits to switch units, default 10,000
 }
 
 function formatNumber(number: number | string, option: Config) {
