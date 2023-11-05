@@ -20,6 +20,7 @@ else
   echo "successs"
 fi
 
+npm i
 npm version patch
 npm run build
 
