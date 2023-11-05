@@ -17,7 +17,8 @@ if [ -n "$GIT_NOT_CLEAN" ]; then
     echo "$GIT_NOT_CLEAN\n"
     exit 1
 else
-  echo "successs"
+  git status
+  echo "git empty"
 fi
 
 npm i
